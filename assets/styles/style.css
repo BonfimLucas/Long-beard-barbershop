@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Akatab:wght@700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+#hero-bg{
+  background-image: url("/assets/img/barber-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+#principal{
+    margin-top: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+#texto_principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+}
+
+#texto_principal h1{
+    color: white;
+    font-family: "Akatab", sans-serif;
+    font-weight: 700;
+    font-size: 2.4em;
+}
+
+#texto_principal p{
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+#botoes_principal{
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+#entre_em_contato-btn{
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    padding: 1em;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#instagram_btn{
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    padding: 1em;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#instagram_btn:hover{
+    background-color: white;
+    color: black;
+}
+
+#entre_em_contato-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+
