@@ -6,8 +6,9 @@
     <title>Long Beard Barbearia</title>
     <link rel="stylesheet" href="assets/styles/burguer-style.css">
     <link rel="stylesheet" href="assets/styles/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
-/>
+    <link rel="stylesheet" href="assets/styles/swipper.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
 </head>
 <body>
     <div id="hero-bg">
@@ -20,10 +21,10 @@
                     <div id="line3"></div>
                 </div>
                 <ul id="nav-list">
-                    <li><a href="/">INICIO</a></li>
-                    <li><a href="/">SOBRE</a></li>
-                    <li><a href="/">SERVICOS</a></li>
-                    <li><a href="/" id="btn_agendar_menu">AGENDAR</a></li>
+                    <li><a href="#principal">INICIO</a></li>
+                    <li><a href="#sobre">SOBRE</a></li>
+                    <li><a href="#servicos">SERVIÇOS</a></li>
+                    <li><a href="#agendamento" id="btn_agendar_menu">AGENDAR</a></li>
                 </ul>
             </nav>
           
@@ -43,12 +44,64 @@
             <section id="servicos">
                 <h2>CONHEÇA NOSSOS SERVIÇOS</h2>
 
-
+                <div class="swiper">
+                <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="card-swiper">
+                                <img src="assets/img/corte_social.jpg" alt="Homem realizando corte de cabelo social" class="imagem-cortes">
+                                <div class="desc-corte">
+                                    <p class="nome-corte">Corte Social</p>
+                                    <p>O corte social é clássico, elegante e versátil. Ideal para quem quer um visual alinhado para trabalho,
+                                       eventos ou rotina diária. Possui laterais discretas e topo ajustado, garantindo aparência profissional
+                                       sem perder estilo.</p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card-swiper">
+                                <img src="assets/img/corte_fade.jpg" alt="Homem realizando corte de cabelo fade" class="imagem-cortes">
+                                <div class="desc-corte">
+                                    <p class="nome-corte">Corte Fade</p>
+                                    <p>O corte fade é um dos estilos mais pedidos atualmente. Ele consiste em um degradê progressivo nas laterais e na nuca,
+                                       criando um efeito moderno e estiloso. Pode ser baixo, médio ou alto, adaptando-se ao formato do rosto e ao estilo de cada
+                                       cliente.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card-swiper">
+                                <img src="assets/img/barba_degrade.jpg" alt="Homem realizando corte fade na barba" class="imagem-cortes">
+                                <div class="desc-corte">
+                                    <p class="nome-corte">Barba Fade</p>
+                                    <p>A barba degradê é um estilo moderno que cria uma transição suave entre o cabelo e a barba,
+                                       diminuindo gradualmente o volume nas laterais. O resultado é um visual limpo, alinhado e sofisticado,
+                                       ideal para quem quer destaque sem exagero.</p>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
             </section>
 
     </div>
             <section id="sobre">
-
+                <h2>SOBRE A GENTE</h2>
+                <img src="assets/img/foto_sessao_sobre.jpg" alt="salao de barbearia">
+                <div id="textos_sessao_sobre">
+                    <p>Na Long Beard Barbearia, estilo não é detalhe — é identidade. Nosso espaço foi criado para quem valoriza um visual alinhado, atendimento de qualidade
+                       e uma experiência completa de barbearia. Trabalhamos com técnicas modernas, produtos profissionais e atenção a cada detalhe para garantir
+                       cortes precisos e barbas impecáveis.</p>
+                    <p>Mais do que um serviço, oferecemos um momento de cuidado e confiança. Aqui, cada cliente é atendido de
+                       forma personalizada, respeitando seu estilo, formato de rosto e preferência. Seja para manter o visual ou renovar completamente o look,
+                       nossa missão é simples: fazer você sair daqui com presença, atitude e confiança.
+                    </p>
+                    <p>
+                        Long Beard Barbearia — estilo que impõe respeito.
+                    </p>
+                </div>
             </section>
             <section id="agendamento">
 
@@ -59,5 +112,7 @@
     </footer>
 
     <script src="assets/scripts/menu-burguer.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="assets/scripts/swipper.js"></script>
 </body>
 </html>

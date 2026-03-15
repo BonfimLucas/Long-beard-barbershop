@@ -36,6 +36,7 @@ nav{
 #nav-list li{
     letter-spacing: 3px;
     margin-left: 2em;
+    text-align: center;
 }
 
 #btn_agendar_menu{
@@ -78,7 +79,7 @@ a:hover{
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        align-items: center;
+        text-align: center;
         transform: translateY(-100%);
         transition: transform 0.3s ease-in;
     }
@@ -91,8 +92,8 @@ a:hover{
         transform: translatex(0);
     }
 
-    #nav-list l1{
-        margin-left: 0;
+    #nav-list li{
+        margin: 0px;
         opacity: 0;   
     }
 

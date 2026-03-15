@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Akatab:wght@700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root{
+    --tom-de-cina: #0D0D0D;
+}
+
 #hero-bg{
   background-image: url("/assets/img/barber-bg.jpg");
   background-size: cover;
@@ -14,7 +18,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
 }
 
 #texto_principal{
@@ -28,12 +32,13 @@
     color: white;
     font-family: "Akatab", sans-serif;
     font-weight: 700;
-    font-size: 2.4em;
+    font-size: 7vw;
 }
 
 #texto_principal p{
     color: white;
     font-family: "Roboto", sans-serif;
+    
 }
 
 #botoes_principal{
@@ -51,6 +56,7 @@
     font-family: "Roboto", sans-serif;
     cursor: pointer;
     transition: 0.3s;
+    
 }
 
 #instagram_btn{
@@ -61,6 +67,50 @@
     font-family: "Roboto", sans-serif;
     cursor: pointer;
     transition: 0.3s;
+    
+}
+
+.swiper{
+  margin-top: 2em;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.card-swiper{
+  width: 90em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0px;
+}
+
+.imagem-cortes{
+    height: 15em;
+    width: 15em;
+    border-radius: 15px;
+}
+
+.desc-corte{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  justify-items: center;
+  gap: 1em;
+  margin-top: 1em;
+  text-align: left;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  width: 15em;
+}
+
+
+#servicos h2{
+    color: white;
+    font-family: "Akatab", sans-serif;
+    font-size: 5vw;
+    margin-left: 1em;
 }
 
 #instagram_btn:hover{
